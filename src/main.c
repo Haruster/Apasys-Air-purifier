@@ -23,4 +23,20 @@ void setup() {
     pinMode(8, OUTPUT);
     pinMode(9, OUTPUT);
 
+    Serial.begin(9600);
+
+    lcd.init();
+    lcd.backlight();
+
 }
+
+void loop() {
+
+    digitalWrite(2, LOW); //미세먼지 센서의 LED에 LOW값을 출력한다.
+
+
+}
+
+    count += 1;
+    lcd.clear();
+    
