@@ -1,4 +1,4 @@
-//Kinesys Air Purifier.c
+//Apasys Air Purifier.c
 //Arduino Project
 
 #include <Wire.h>
